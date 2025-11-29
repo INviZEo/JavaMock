@@ -1,0 +1,9 @@
+package org.example.topic1_junit.task3_passwordvalidator;
+
+public class PasswordValidator {
+    public static boolean isValid(String password) {
+        if (password == null) return false;
+        return password.length() >= 8 && password.matches(".*\\d.*");
+    }
+}
+
