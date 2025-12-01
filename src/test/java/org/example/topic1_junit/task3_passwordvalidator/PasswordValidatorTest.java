@@ -2,12 +2,8 @@ package org.example.topic1_junit.task3_passwordvalidator;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import org.mockito.Mock;
 
 class PasswordValidatorTest {
-
-    @Mock
-    private PasswordValidator passwordValidator;
 
     @Test
     void isValidPassword() {
